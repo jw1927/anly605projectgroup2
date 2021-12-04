@@ -31,7 +31,7 @@ def hello_world():
     else:
         text = request.form['text']
         random_string = uuid.uuid4().hex
-        path = "static/"+random_string +".svg"
+        path = "app/static/"+random_string +".svg"
 
         # Load and Create Dataframe
         heart_group2 = pd.read_csv('heart_failure_clinical_records_dataset.csv', header = 0)
@@ -43,7 +43,7 @@ def hello_world():
         
         # Load the model with details
         np_arr = floatsome_to_np_array(text)
-        pkl_filename="TrainedModel/pickle.pkl"
+        pkl_filename="app/TrainedModel/pickle.pkl"
         with open(pkl_filename, 'rb') as file:
             pickle_model = pickle.load(file)
             model = list(pickle_model.values())[0] 
