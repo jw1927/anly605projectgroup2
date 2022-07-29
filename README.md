@@ -9,19 +9,19 @@ Here are five feature vectors that users can use for testing:
 4. 53, 0, 63, 1, 60, 0, 368000, 0.8, 135, 1, 0, 22
 5. 65, 1, 160, 1, 20, 0, 327000, 2.7, 116, 0, 0, 8
 
-![image](https://github.com/jw1927/anly605projectgroup2/figure1-1.png)
+![image](https://github.com/jw1927/anly605projectgroup2/blob/main/figure1-1.png)
 
-![image](https://github.com/jw1927/anly605projectgroup2/figure1-2.png)
+![image](https://github.com/jw1927/anly605projectgroup2/blob/main/figure1-2.png)
 
 Figure 1  Screenshot of the Heroku application
 
 The above graph displays the scatter plot of four most important features of the dataset, that is, age, ejection fraction, time and serum sodium. The color of the points represents the category of the target variable, that is, Death_Event. Users can provide input to the text box below the graph. After inputting the feature vector, the website will display the updated graph with predictions from the feature vector given from the user’s input.
 
-![image](https://github.com/jw1927/anly605projectgroup2/figure2.png)
+![image](https://github.com/jw1927/anly605projectgroup2/blob/main/figure2.png)
 
 Figure 2  Predicted vector using 75, 0, 582, 0, 20, 1, 265000, 1.9, 130, 1, 0, 4
 
-![image](https://github.com/jw1927/anly605projectgroup2/figure3.png)
+![image](https://github.com/jw1927/anly605projectgroup2/blob/main/figure3.png)
 
 Figure 3  Predicted vector using 53, 0, 63, 1, 60, 0, 368000, 0.8, 135, 1, 0, 22
 
