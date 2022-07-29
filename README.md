@@ -1,6 +1,6 @@
 # Heroku Application
 
-We used Heroku's deployment feature to connect to a Github repository and used it to deploy the model. Users can go to https://anly605projectgroup2.herokuapp.com/ to build the model. They can utilize the following five feature vectors to test the model. A table showing the variables and example values for each variable is included below the input field. Users may also choose to create any feature vectors to fit and test the model.
+We used Heroku's deployment feature to deploy the model. Users can go to https://anly605projectgroup2.herokuapp.com/ to build the model. They can utilize the following five feature vectors to test the model. A table showing the variables and example values for each variable is included below the input field. Users may also choose to create any feature vectors to fit and test the model.
 
 Here are five feature vectors that users can use for testing:
 1. 75, 0, 582, 0, 20, 1, 265000, 1.9, 130, 1, 0, 4
